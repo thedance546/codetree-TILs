@@ -21,7 +21,9 @@ public class Main {
                 } else{
                     cnt1++;
                 }
-            } 
+            } else if(i%3==0){
+                cnt2++;
+            }
         }
 
         System.out.println(cnt1+" "+cnt2+" "+cnt3);
