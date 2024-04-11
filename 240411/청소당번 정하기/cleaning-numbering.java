@@ -11,14 +11,16 @@ public class Main {
         for (int i = 1; i <= n; i++) {
             if(i%2==0){
                 if(i%3==0){
-                    cnt2++;
+                    if(i%12==0){
+                        cnt3++;
+                    }else{
+                        cnt2++;
+                    }
                 } else if(i%12==0){
                     cnt3++;
                 } else{
                     cnt1++;
                 }
-            } else if(i%3==0){
-                cnt2++;
             } 
         }
 
