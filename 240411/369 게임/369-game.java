@@ -6,17 +6,17 @@ public class Main {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            if(i%3==0 || i%6==0 || i%9==0){
+            int num =i;
+            int lastDigit =num%10;
+            if(i%3==0){
                 System.out.print("0 ");
-            } else if (((i/10)/3)==1){
+            } else if(lastDigit ==3 || lastDigit ==6 || lastDigit ==9) {
                 System.out.print("0 ");
-            } else if (((i/10)/3)==2){
-                System.out.print("0 ");
-            }else if (((i/10)/3)==3){
-                System.out.print("0 ");
+                num/=10;
             } else {
                 System.out.print(i+" ");
             }
+            
         }
 
         
