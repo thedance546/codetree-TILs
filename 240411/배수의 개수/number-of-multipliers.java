@@ -10,7 +10,8 @@ public class Main {
             int a = sc.nextInt();
             if(a%3==0){
                 cnt1++;
-            } else if(a%5==0){
+            } 
+            if(a%5==0){
                 cnt2++;
             }
         }
