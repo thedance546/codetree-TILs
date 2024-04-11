@@ -9,7 +9,7 @@ public class Main {
 
         while (a <= b) {           
             System.out.print(a+" ");  
-            i +=2;                                
+            a +=2;                                
         }
     }
 }
