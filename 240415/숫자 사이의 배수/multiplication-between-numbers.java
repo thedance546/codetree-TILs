@@ -14,7 +14,6 @@ public class Main {
                 cnt++;
             }
         }
-        System.out.println(sumVal);
-        System.out.println(sumVal/cnt);
+        System.out.print(sumVal+" "+(sumVal/cnt));
     }
 }
