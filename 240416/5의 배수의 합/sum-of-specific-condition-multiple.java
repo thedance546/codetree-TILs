@@ -12,13 +12,13 @@ public class Main {
             if(i%5==0 ){
                 sumVal+=i;
             }
-        } else{
+            } else {
             for (int i = b; i <= a; i++) {
             if(i%5==0 ){
                 sumVal+=i;
             }
-        }
-        
+    
+            }
 
         System.out.print(sumVal);
     }
