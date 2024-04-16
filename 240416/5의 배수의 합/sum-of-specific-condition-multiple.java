@@ -20,6 +20,6 @@ public class Main {
         }
         
 
-        System.out.printf(sumVal);
+        System.out.print(sumVal);
     }
 }
