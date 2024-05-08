@@ -8,13 +8,13 @@ public class Main {
         int sum=0;
 
         for (int i = 1; i <= 100; i++) {
-            
+            sum+=i;
             if(sum>=n){
                 break;
             }
-            sum+=i;
+            
         }
 
-        System.out.println(sum);
+        System.out.println(i);
     }
 }
