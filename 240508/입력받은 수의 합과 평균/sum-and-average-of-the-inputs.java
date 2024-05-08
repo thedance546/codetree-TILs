@@ -10,6 +10,7 @@ public class Main {
             int j=sc.nextInt();
             sum+=j;
         }
-        System.out.printf("%d %1.f",sum,(double)sum/n);
+        double avg=sum/n;
+        System.out.printf("%d %.1f",sum,avg);
     }
 }
