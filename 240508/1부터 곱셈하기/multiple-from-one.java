@@ -8,7 +8,7 @@ public class Main {
         int prod=1;
 
         for (int i = 1; i <= 10; i++) {
-            prod*=i
+            prod*=i;
             if(prod==n){
                 System.out.println(i);
                 break;
