@@ -9,7 +9,7 @@ public class Main {
 
         for (int i = a; i <= b; i++) {
             if(i%a==0){
-                prod *= a;
+                prod *= i;
             }
         }
 
