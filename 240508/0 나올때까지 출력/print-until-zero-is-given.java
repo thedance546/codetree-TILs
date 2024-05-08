@@ -8,10 +8,11 @@ public class Main {
         int sumVal = 0;
         while (true) {
             n = sc.nextInt();
-            System.out.println(n);
+            
             if (n == 0) {
                 break;
             }
+            System.out.println(n);
         }
     }
 }
