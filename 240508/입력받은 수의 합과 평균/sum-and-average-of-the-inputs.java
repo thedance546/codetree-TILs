@@ -10,6 +10,6 @@ public class Main {
             int j=sc.nextInt();
             sum+=j;
         }
-        System.out.println(sum+" "+ (double) sum/n);
+        System.out.printf("%d %1.f",sum,(double)sum/n);
     }
 }
