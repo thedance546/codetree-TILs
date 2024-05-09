@@ -5,13 +5,19 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int n;
+        int cnt=0;
         
-        for(int i=0; i<3; i++){
+        while(true){
             n=sc.nextInt();
             if(n%2==1){
                 continue;
             } else{
+                cnt++;
                System.out.println(n/2);
+            }
+
+            if(cnt==3){
+                break;
             }
         }
     }
