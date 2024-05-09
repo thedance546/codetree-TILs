@@ -12,7 +12,7 @@ public class Main {
             h=sc.nextInt();
             c=sc.next().charAt(0);
 
-            System.out.print(w*h);
+            System.out.println(w*h);
             if(c=='C'){
                 break;
             }
