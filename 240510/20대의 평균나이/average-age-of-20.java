@@ -11,7 +11,7 @@ public class Main {
         
         while(true){
             a=sc.nextInt();
-            if(a>=30&&a<20){
+            if(a>=30||a<20){
                 break;
             }
             sum+=a;
