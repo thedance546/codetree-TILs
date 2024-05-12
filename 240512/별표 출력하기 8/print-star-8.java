@@ -7,8 +7,8 @@ public class Main {
         int n=sc.nextInt();
 
         for (int i = 0; i < n; i++) {
-            if (i % 2 == 0) {
-                for (int j = 0; j < i+2; j++) {
+            if (i % 2 == 1) {
+                for (int j = 0; j < i+1; j++) {
                     System.out.print("* ");
                 }
             }
