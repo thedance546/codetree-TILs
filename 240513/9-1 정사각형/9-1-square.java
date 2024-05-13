@@ -10,7 +10,7 @@ public class Main {
             for (int j = 0; j < n; j++) {
                 System.out.print(cnt);
                 cnt--;
-                if(cnt==1){
+                if(cnt==0){
                     cnt=9;
                 }
             }
