@@ -12,7 +12,7 @@ public class Main {
                 if (j==k) {
                     System.out.println("(" + i + ", " + j + ")");
                     k--;
-                    if(j==0){
+                    if(k==0){
                         k=n;
                     }
                 }
