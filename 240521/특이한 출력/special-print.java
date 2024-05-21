@@ -12,6 +12,9 @@ public class Main {
                 if (j==k) {
                     System.out.println("(" + i + ", " + j + ")");
                     k--;
+                    if(j==0){
+                        k=n;
+                    }
                 }
                 else {
                     System.out.print("(" + i + ", " + j + ") ");
