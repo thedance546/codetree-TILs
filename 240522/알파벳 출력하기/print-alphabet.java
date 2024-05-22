@@ -11,7 +11,7 @@ public class Main {
             for(int j=0; j<i+1; j++){
                 System.out.print(x);
                 x++;
-                if((int) x==93){
+                if((int) x==91){
                     x='A';
                 }
             }
