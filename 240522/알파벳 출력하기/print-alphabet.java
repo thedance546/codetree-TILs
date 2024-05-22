@@ -11,6 +11,9 @@ public class Main {
             for(int j=0; j<i+1; j++){
                 System.out.print(x);
                 x++;
+                if(x=='Z'){
+                    x='A';
+                }
             }
             System.out.println();
         }
