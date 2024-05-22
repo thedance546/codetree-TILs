@@ -14,6 +14,9 @@ public class Main {
             for(int j=0; j<n-i; j++){
                 System.out.print(x+" ");
                 x++;
+                if(x>'Z'){
+                    x='A';
+                }
             }
             System.out.println();
         }
