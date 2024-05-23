@@ -9,15 +9,15 @@ public class Main {
         int sum=0;
 
         for (int i = 0; i < 10; i++) {
-            int n= sc.nextInt();
-            if(n!=0 && n%2==0){
-                arr[i]=n; 
-                sum+=arr[i];
-                cnt++;
-            } else{
+            arr[i]=sc.nextInt();
+        }
+        for(int j=0; j<10; j++){
+            if(arr[j]==0){
                 break;
+            } else if(arr[j]%2==0){
+                sum+=arr[j];
+                cnt++;
             }
-            
         }
         System.out.printf("%d %d",cnt,sum);
 
