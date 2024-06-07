@@ -13,7 +13,7 @@ public class Main {
         }
 
         // 개수 세기
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 10; i++) {
             countArr[arr[i]]++;
         }
 
