@@ -1,2 +1,2 @@
-a=143
+a=int(input())
 print(f'Your score is {a} point.')
